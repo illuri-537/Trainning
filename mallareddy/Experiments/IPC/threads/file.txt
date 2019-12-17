@@ -1,0 +1,4 @@
+thread creation 
+mallareddy
+Read the data from the file and write into the messege queue
+task completed

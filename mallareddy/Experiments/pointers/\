@@ -1,0 +1,76 @@
+#include<stdio.h>
+
+
+
+#if 0
+
+/* simple example for pointer usage */
+
+int main(void)
+
+{
+
+		int a = 65;
+
+		int *ptr = NULL;
+
+
+
+		ptr = &a;
+
+		printf("*ptr = %c\n",*ptr);
+
+		printf("*ptr = %d\n",*ptr);
+
+		printf("*ptr = %f\n",(float )*ptr);
+
+		printf("*ptr = %p\n",(void *)*ptr);	
+
+		//struct temp num;
+
+		printf("*ptr = %x\n",ptr);
+
+		printf("*ptr = %s\n",*ptr);
+
+		return 0;
+
+}
+#endif
+#if 1
+int main(void)
+
+{
+
+		int a = 10;
+
+		int *ptr = NULL;
+
+
+
+		ptr = &a;
+
+		printf("ptr = %c\n",(int)ptr);
+
+		printf("&a = %c\n",&a);
+
+		printf("ptr = %d\n",ptr);
+
+		printf("ptr = %f\n",ptr);
+		printf("ptr = %d\n",a);
+
+		printf("a = %p\n",a);
+		printf("a = %x\n",a);
+
+		printf("ptr = %p\n",ptr);	
+
+		printf("ptr = %x\n",(unsigned int)ptr);
+
+		printf("ptr = %s\n",ptr);
+
+
+
+		return 0;
+
+}
+#endif
+
